@@ -19,7 +19,6 @@ import random
 word_list = ['Banana', 'Mango', 'Orange', 'Plantain', 'Avacado-Pear']
 word = random.choice(word_list)
 
-
 def check_guess(guess):
     guess.lower()
     if guess in word:
@@ -41,4 +40,3 @@ def ask_for_input():
                 break
             
 ask_for_input()
-
